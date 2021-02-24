@@ -1,0 +1,19 @@
+using System;
+using Console;
+using VentzCoin;
+using Device;
+using Util;
+using Math;
+
+TextScreenDevice screen = Device.FindTextScreen("Text");
+
+number Time = System.Time();
+while(true){
+    if(System.Time() - Time > 10){
+        number walletbal = Math.RoundTo(VentzCoin.GetWalletBalance("6MBJS2L7FZXHW48UUDSWJX5Z4542L3ZQ"), 2);
+number wValue = (walletbal * VentzCoin.GetValue()) * 0.85);number rValue = Math.RoundTo(wValue, 2);
+        screen.SetFontSize(60);
+        screen.SetText("Coin Balance: " ..Util.ToString(walletbal).. "\n Wallet Value: ".. Util.ToString(Util.FormatMoney(rValue)));
+        Time = System.Time();
+    }
+}
