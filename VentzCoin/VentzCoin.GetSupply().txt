@@ -1,0 +1,12 @@
+Summary
+Gets the amount of VentzCoin in circulation
+
+Example
+using Console;
+using VentzCoin;
+using Util;
+
+// Prints the current supply of VentzCoin to the console.
+
+number supply = VentzCoin.GetSupply();
+Console.WriteLine("VC Supply: "..supply);

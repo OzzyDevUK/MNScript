@@ -1,0 +1,12 @@
+Summary
+Gets the current £ value of VentzCoin
+
+Example
+using Console;
+using VentzCoin;
+using Util;
+
+// Prints the current value of VentzCoin to the console.
+
+number value = VentzCoin.GetValue();
+Console.WriteLine("VC Value: "..value);

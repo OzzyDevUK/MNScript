@@ -1,0 +1,5 @@
+Summary
+Gets the VentzCoin balance for a wallet. This only works for wallets owned by online players!
+
+Parameters
+string - The wallet to search for.

@@ -1,0 +1,21 @@
+Summary
+Gets the VentzCoin history for the past minute.
+
+Example
+using Console;
+using VentzCoin;
+using Util;
+using Array;
+
+// Prints the value of VentzCoin for each second of the past minute.
+
+VentzCoinRecord[] records = VentzCoin.GetRecordsMinute();
+number numRecords = Array.Length(records);
+number recordIndex = 1;
+
+while(recordIndex <= numRecords){
+    VentzCoinRecord record = records[recordIndex];
+    
+    Console.WriteLine("Record "..recordIndex..": "..record.GetValue());
+    recordIndex = recordIndex + 1;
+}
