@@ -1,3 +1,3 @@
 # MNScript
 
-MNSCript Github Docs Coming Soon.
+MNScript Github Docs Coming Soon.
