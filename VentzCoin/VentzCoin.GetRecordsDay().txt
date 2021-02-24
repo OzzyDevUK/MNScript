@@ -1,7 +1,7 @@
 Summary
  Gets the VentzCoin history for the past day.
 Returns
- VentzCoinRecord[] - 24 records for each hour of the past day of VentzCoin
+ VentzCoinRecord[] - 24 records for each hour of the past day of VentzCoin.
 
 
 
