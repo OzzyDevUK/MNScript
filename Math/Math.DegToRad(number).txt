@@ -1,0 +1,5 @@
+Summary
+Converts the number of degrees provided into radians
+
+Parameters
+number - The number of degrees to convert

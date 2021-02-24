@@ -1,0 +1,5 @@
+Summary
+Returns the number provided, but rounded to the nearest integer
+
+Parameters
+number - The number to round

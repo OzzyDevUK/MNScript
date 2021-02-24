@@ -1,0 +1,7 @@
+Summary
+Generates a random number inside the range (Inclusive).
+
+Parameters
+number - The lower random range.
+
+number - The upper random range.

@@ -1,0 +1,5 @@
+Summary
+Returns the cosine of the specified angle
+
+Parameters
+number - The angle in radians

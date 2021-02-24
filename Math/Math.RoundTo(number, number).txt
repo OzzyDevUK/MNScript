@@ -1,0 +1,7 @@
+Summary
+Returns the number provided to the number of decimal places provided
+
+Parameters
+number - The number to round
+
+number - The number of decimal places to round to.

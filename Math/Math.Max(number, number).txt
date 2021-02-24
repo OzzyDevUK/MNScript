@@ -1,0 +1,7 @@
+Summary
+Returns the largest of the two values provided
+
+Parameters
+number - The first number
+
+number - The second number

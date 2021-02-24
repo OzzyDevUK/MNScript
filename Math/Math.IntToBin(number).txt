@@ -1,0 +1,5 @@
+Summary
+Converts a number to a binary string.
+
+Parameters
+number - The number to convert.

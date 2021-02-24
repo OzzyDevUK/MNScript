@@ -1,0 +1,5 @@
+Summary
+Returns the angle whose cosine is the given number
+
+Parameters
+number - The cosine value in the range of -1 to 1

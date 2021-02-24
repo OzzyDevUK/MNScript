@@ -1,0 +1,2 @@
+Summary
+Generates a random number between 0-1

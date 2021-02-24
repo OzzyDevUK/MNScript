@@ -1,0 +1,5 @@
+Summary
+Returns the absolute value of the specified number
+
+Parameters
+number - The number

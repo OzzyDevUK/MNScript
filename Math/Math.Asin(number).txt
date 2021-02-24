@@ -1,0 +1,5 @@
+Summary
+Returns the angle whose sine is the given number
+
+Parameters
+number - The sine value in the range of -1 to 1

@@ -1,0 +1,5 @@
+Summary
+Returns the angle whos tangent is the given number
+
+Parameters
+number - The tangent

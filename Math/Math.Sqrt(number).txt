@@ -1,0 +1,5 @@
+Summary
+Calculates the square root of the number provided
+
+Parameters
+number - The number of calculate the square root of
