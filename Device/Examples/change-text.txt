@@ -1,0 +1,9 @@
+using System;
+using Console;
+using Device;
+
+TextScreenDevice screen = Device.FindTextScreen("Text"); // Finds The TextScreen
+
+screen.SetBackgroundColor(102,187,144);
+screen.SetFontSize(72);
+screen.SetText("KOS INSIDE BASE");
