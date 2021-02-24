@@ -1,0 +1,17 @@
+using System;
+using Console;
+using Device;
+
+TextScreenDevice screen = Device.FindTextScreen("Text"); // Finds The Text Screen "Text"
+// Changes Text Repeatedly Every 10 Seconds
+number Time = System.Time();
+while(true){
+    if(System.Time() - Time > 10){
+        screen.SetText("Hey Guys");
+        System.Sleep(10);
+        screen.SetText("Welcome To My Base!");
+        System.Sleep(10);
+        screen.SetText("KOS Inside!");
+        Time = System.Time();
+    }
+}
