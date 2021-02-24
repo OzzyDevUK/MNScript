@@ -1,0 +1,2 @@
+Summary
+Gets the market cap of VentzCoin for this record

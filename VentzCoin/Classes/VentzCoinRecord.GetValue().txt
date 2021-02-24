@@ -1,0 +1,2 @@
+Summary
+Gets the value of VentzCoin for this record
