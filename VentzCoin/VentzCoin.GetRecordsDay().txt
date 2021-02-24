@@ -1,0 +1,24 @@
+Summary
+ Gets the VentzCoin history for the past day.
+Returns
+ VentzCoinRecord[] - 24 records for each hour of the past day of VentzCoin.
+
+
+
+using Console;
+using VentzCoin;
+using Util;
+using Array;
+
+// Prints The Value Of VentzCoin For Each Hour Of The Past Day.
+
+VentzCoinRecord[] records = VentzCoin.GetRecordsDay();
+number numRecords = Array.Length(records);
+number recordIndex = 1;
+
+while(recordIndex <= numRecords){
+    VentzCoinRecord record = records[recordIndex];
+    
+    Console.WriteLine("Record "..recordIndex..": "..record.GetValue());
+    recordIndex = recordIndex +1;
+}
