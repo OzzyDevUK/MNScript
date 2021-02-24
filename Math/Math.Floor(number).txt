@@ -3,3 +3,4 @@ Returns the number provided, but rounded down to the nearest whole number
 
 Parameters
 number - The number to round up
+:)
